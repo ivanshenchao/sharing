@@ -1,0 +1,420 @@
+/* 行内元素居中、左、右 */
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+
+/* padding */
+.padding10{
+    padding: 10px;
+}
+.padding20{
+    padding: 20px;
+}
+.padding2{
+    padding: 2px;
+}
+.padding5{
+    padding: 5px;
+}
+.padding-left5{
+    padding-left: 5px;
+}
+.padding-right5{
+    padding-right: 5px;
+}
+.padding-right10{
+    padding-right: 10px;
+}
+.padding-top10{
+    padding-top: 10px;
+}
+.padding-top20{
+    padding-top: 20px;
+}
+.padding-left10{
+    padding-left: 10px;
+}
+.padding-left20{
+    padding-left: 20px;
+}
+.padding-left50{
+    padding-left: 50px;
+}
+.padding-right20{
+    padding-right: 20px;
+}
+.padding-bottom10{
+    padding-bottom: 10px;
+}
+.padding-bottom20{
+    padding-bottom: 20px;
+}
+
+/* margin */
+.margin10{
+    margin: 10px;
+}
+.margin20{
+    margin: 20px;
+}
+.margin-top5{
+    margin-top: 15px;
+}
+.margin-top10{
+    margin-top: 10px;
+}
+.margin-top20{
+    margin-top: 20px;
+}
+.margin-top30{
+    margin-top: 30px;
+}
+.margin-top50{
+    margin-top: 50px;
+}
+.margin-bottom10{
+    margin-bottom: 10px;
+}
+.margin-bottom20{
+    margin-bottom: 20px;
+}
+.margin-bottom30{
+    margin-bottom: 30px;
+}
+.margin-center{
+    margin-left: auto;
+}
+.margin-right-pre8{
+    margin-right: 8%;
+}
+.margin-right5{
+    margin-right: 5px;
+}
+.margin-right10{
+    margin-right: 10px;
+}
+.margin-right15{
+    margin-right: 15px;
+}
+.margin-right20{
+    margin-right: 20px;
+}
+.margin-left20{
+    margin-left: 20px;
+}
+.margin2{
+    margin: 2px;
+}
+.margin5{
+    margin: 5px;
+}
+.margin0{
+    margin: 0;
+}
+.margin-lr20{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.margin-tops20{
+    margin: -20px;
+}
+.margin-tops5{
+    margin: -5px;
+}
+
+/* 字体大小 */
+.font-size10{
+    font-size: 10px;
+}
+.font-size12{
+    font-size: 12px;
+}
+.font-size14{
+    font-size: 14px;
+}
+.font-size16{
+    font-size: 16px;
+}
+.font-size18{
+    font-size: 18px;
+}
+.font-size20{
+    font-size: 20px;
+}
+.font-size22{
+    font-size: 22px;
+}
+
+/* 字体颜色 */
+.color-white{
+    color: #FFFFFF;
+}
+.color-red{
+    color: red;
+}
+.color-yellow{
+    color: #409EFF;
+}
+.color-blue{
+    color: #409EFF;
+}
+.color-silver{
+    color: #999999;
+}
+.color-silvers{
+    color: rgba(238,238,238,1);
+}
+.color-black{
+    color: #213b4e;
+}
+
+/* 背景颜色 */
+.background-white{
+    background-color: white;
+}
+
+/* 字体加粗 */
+.font-weight{
+    font-weight: bold;
+}
+
+/* button */
+.el-button-copy{
+    display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    color: white;
+    background-color: #409EFF;
+    -webkit-appearance: none;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    -webkit-transition: .1s;
+    transition: .1s;
+    font-weight: 500;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.el-button-copy:hover{
+    background: rgb(46, 135, 224);
+}
+.el-button-copy:active{
+    background: rgb(21, 101, 180);
+}
+
+/* table */
+.admin-table{
+    padding: 50px 10px 0 15px;
+    margin-bottom: 50px;
+} 
+.el-table{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.el-table tr{
+    font-size: 14px;
+    color: #929fa9;
+}
+.el-table tr:nth-child(even){
+    background-color: rgba(244,247,253,1);
+}
+.el-table tr:hover .color-yellow{
+    color: white;
+}
+.el-table__body tr:hover>td {
+    background-color: #409EFF !important;
+    color: white;
+}
+.el-table__body td, .el-table__body th.is-leaf{
+    color: #213b4e;
+    border: none;
+}
+/* 
+
+.el-table__body tr:hover>td {
+    background-color: #384357 !important;
+}
+.el-table__body-wrapper{
+    border: none;
+}
+.el-pagination__total,.el-pagination__jump{
+    color: white
+}
+*/
+
+/* 分页 */
+.pagination{
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    z-index: 999;
+}
+
+/* line*/
+.line-height30{
+    line-height: 30px;
+}
+.line-height35{
+    line-height: 35px;
+}
+.line-height40{
+    line-height: 40px;
+}
+.line-height60{
+    line-height: 60px;
+}
+.line-space1{
+    letter-spacing: 1px;
+}
+.line-space2{
+    letter-spacing: 2px;
+}
+
+/* height */
+.height30{
+    height: 30px;
+    background: red;
+}
+.add-height10{
+    width: 100%;
+    height: 10px;
+    margin: 0;
+    padding: 0;
+}
+.add-height20{
+    width: 100%;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.tip-message{
+    width: 200px;
+    height: 10px;
+    color: red;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+/* weight */
+.width300{
+    width: 300px;
+}
+.width220{
+    width: 220px;
+}
+.width200{
+    width: 200px;
+}
+.width150{
+    width: 150px;
+}
+.width100{
+    width: 100px;
+}
+
+/* 不换行 */
+.white-space-nowrap{
+    white-space: nowrap;
+}
+
+/* 超出省略号 */
+.ellipsis{
+    width: 90%;
+    margin-left: 5%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+
+/* 变手型 */
+.cursor{
+    cursor: pointer;
+}
+
+/* hover */
+.hover-font:hover{
+    color: rgb(101, 175, 250);
+}
+.hover-bg:hover{
+    background-color: #409EFF;
+}
+
+.el-badge__content{
+    background: none !important;
+    line-height: 90px !important;
+    border: none !important;
+    color: red !important;
+    font-weight: bold !important
+}
+
+.el-dialog__footer{
+    text-align: center !important;
+}
+
+/* 面包屑 */
+.breadcrumb{
+    width: 100%;
+    padding: 15px 30px;
+    background-color: white;
+    border-top: 1px solid #eff1f7;
+    position: fixed;
+    z-index: 999;
+}
+
+/* 弹窗 */
+.el-dialog__header{
+    border-bottom: 1px solid #eeeeee;
+}
+
+/* 取消padding */
+.el-container>.el-main{
+    padding: 0 !important;
+}
+
+/* 图片上传 */
+.avatar-uploader .el-upload {
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  .avatar-uploader .el-upload:hover {
+    border-color: #409EFF;
+  }
+  .avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+  }
+  .avatar {
+    width: 150px;
+    height: 150px;
+    display: block;
+  }
+
+  /* 富文本编辑框 */
+  .ql-container.ql-snow{
+      background-color: white;
+  }
+
+ /* 弹窗 */
+  .el-dialog__body{
+    padding: 30px 20px !important;
+}
